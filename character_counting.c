@@ -7,4 +7,4 @@ int main()
 	    ++nc;
 	}
 	printf(" %ld\n", nc);
-}
+} 
