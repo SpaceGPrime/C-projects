@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+
+int main(int argc, char const *argv[])
 {
 	int c, nl;
 	nl = 0;
@@ -10,4 +11,5 @@ int main()
 		}
 	}
 	printf("%d\n", nl);
+	return 0;
 }

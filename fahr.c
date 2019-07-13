@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+
+int main(int argc, char const *argv[])
 {
 	printf("\"Fahr\"\n\n");
 
@@ -16,4 +17,5 @@ int main()
 	    printf("%3.0f\t%6.2f\n", celsius, fahr);
 	    celsius = celsius + step;
 	}
+	return 0;
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+
+int main(int argc, char const *argv[])
 {
 	long nc;
 	nc = 0;
@@ -7,4 +8,5 @@ int main()
 	    ++nc;
 	}
 	printf(" %ld\n", nc);
+	return 0;
 } 

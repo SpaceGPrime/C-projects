@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+
+int main(int argc, char const *argv[])
 {
 	int c;
 	while((c = getchar()) != EOF) {
@@ -14,4 +15,5 @@ int main()
 
 	}
 	printf("%d\n", c);
+	return 0;
 }

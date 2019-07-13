@@ -3,7 +3,7 @@
 #define IN 1
 #define OUT 0
 
-int main()
+int main(int argc, char const *argv[])
 {
 	int c, state;
 
@@ -22,4 +22,5 @@ int main()
 	    	putchar(c);
 	    }
 	}
+	return 0;
 }
